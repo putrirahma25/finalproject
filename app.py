@@ -49,7 +49,11 @@ app.config['UPLOAD_FOLDER'] = os.path.join(app.root_path, 'static', 'uploads')
 
 # Database connection
 db = connector.connect(
-   user="fpcc", password="{your_password}", host="fpwebcc.mysql.database.azure.com", port=3306, database="{your_database}
+   user="fpcc", 
+    password="{your_password}", 
+    host="fpwebcc.mysql.database.azure.com", 
+    port=3306, 
+    database="{your_database}
 db_config = {
     'host': 'localhost',
     'user': 'root',
